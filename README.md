@@ -1,2 +1,24 @@
-# CodeBlooded-ai
-⚡ CodeBlooded AI — A modern Python desktop chatbot using CustomTkinter and Google Gemini API. Features real-time streaming, light/dark mode, chat history, avatars, timestamps &amp; typing animation. Secure API key via env vars.
+# ⚡ CodeBlooded AI — Tkinter Chat (Streamlit-style UI)
+
+A modern desktop chatbot built with **Python, CustomTkinter**, and **Google Gemini API**.  
+It provides a smooth chat experience with real-time streaming, chat history, custom avatars, and theme switching.
+
+---
+
+## 🚀 Features
+- 💬 Real-time Gemini chat with streaming responses  
+- 🎨 Light/Dark theme toggle  
+- 🗑️ Clear chat button  
+- 💾 Persistent chat history (JSON)  
+- 👤 Custom avatars (User + AI logos)  
+- ⏱️ Timestamps & “Typing…” animation  
+- 🔒 Secure API key via environment variable (`GOOGLE_API_KEY`)  
+
+---
+
+## 🛠️ Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/CodeBloodedAI.git
+   cd CodeBloodedAI
