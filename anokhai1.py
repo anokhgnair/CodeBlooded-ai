@@ -53,7 +53,7 @@ def save_message(user_msg, ai_msg):
 # 🎨 UI constants
 ASSISTANT_NAME = "CodeBlooded AI"
 FONT_FAMILY = "Segoe UI"
-FONT_SIZE = 12
+FONT_SIZE = 10
 FONT_BOLD = (FONT_FAMILY, FONT_SIZE, "bold")
 FONT_NORMAL = (FONT_FAMILY, FONT_SIZE)
 # =========================
@@ -103,7 +103,7 @@ center_frame = ctk.CTkFrame(header_frame, fg_color="transparent")
 center_frame.pack(expand=True, fill="both")
 
 # 🖼️ logo (use your full path)
-LOGO_PATH = r"./logoofcodebloodedaititle.png"
+LOGO_PATH = r"C:\Users\Anokh G Nair\Downloads\pngtree-electric-blue-lightning-png-image_14239124.png"
 logo_photo = None
 try:
     if os.path.exists(LOGO_PATH):
@@ -153,8 +153,8 @@ def display_message(role, message):
     # avatar + name row
     name_frame = ctk.CTkFrame(bubble, fg_color="transparent")
 
-    USER_AVATAR_PATH = r"./useremoji.png"
-    AI_AVATAR_PATH   = r"./ai2_logo.png"
+    USER_AVATAR_PATH = r"C:\Users\Anokh G Nair\Desktop\ANOKHproject\aichatbot\useremoji.png"
+    AI_AVATAR_PATH   = r"C:\Users\Anokh G Nair\Desktop\ANOKHproject\aichatbot\ai2_logo.png"
 
     if role == "user":
         # USER side
@@ -174,6 +174,7 @@ def display_message(role, message):
         name.pack(side="right")
 
     else:
+        # ASSISTANT side
         try:
             if os.path.exists(AI_AVATAR_PATH):
                 img = Image.open(AI_AVATAR_PATH).resize((45, 45), Image.Resampling.LANCZOS)
