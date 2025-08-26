@@ -1,0 +1,30 @@
+# Python caches & compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# virtual envs
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs & sqlite
+*.log
+*.sqlite3
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Secrets / env files
+.env
+*.env
+apikey.txt
+
+# Local chat/history files from this project
+CodeBlooded_AI_history.json
+chat_history.json
