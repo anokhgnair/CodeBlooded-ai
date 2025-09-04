@@ -7,7 +7,8 @@ It provides a smooth chat experience with real-time streaming, chat history, cus
 
 ## 🚀 Features
 - 💬 Real-time Gemini chat with streaming responses  
-- 🎨 Light/Dark theme toggle  
+- 🎨 Light/Dark theme toggle
+- 📄 Chat history  
 - 🗑️ Clear chat button  
 - 💾 Persistent chat history (JSON)  
 - 👤 Custom avatars (User + AI logos)  

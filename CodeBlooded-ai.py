@@ -125,7 +125,7 @@ title_label.pack()
 subtitle = ctk.CTkLabel(center_frame, text="Your Virtual Web Companion!", font=(FONT_FAMILY, 11))
 subtitle.pack()
 
-# 📝 input bar (bottom)
+## 📝 input bar (bottom)
 input_frame = ctk.CTkFrame(root)
 input_frame.pack(side=ctk.BOTTOM, fill="x", padx=10, pady=10)
 
